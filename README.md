@@ -1,29 +1,31 @@
 # Nodemcu-esp8266-Automate-watering-plants
-This is small project to make life much easier.
+One small project that will make your more easily.
 
-This is all you need:
+Things to make in Automate-watering-plants project:
 
 Nodemcu esp8266
 Relay 5v
 Pump 5v
 Soil moisture sensor
-BreadBoard
-
-Line notify token
-For the line path plese chek this https://notify-bot.line.me/th/
+Breadboard
+[Line notify token](https://notify-bot.line.me/th/)
 
 
-# 1 Connect every things
+# 1 Build it
     This is how Automate-watering-plants logic works
-    1 Check connection to WIFI 
-    2 Check if Soil is dry or not
-    3 If yes, turn on relay(The relay connected to water pump).If not turn off relay.
-    4 Sent message to Line notify//Line bot.
+    1 Check connection on WIFI 
+    2 Check with your Soil moisture sensor if Soil’s moisture is high or low
+    3 If it’s low, the relay will turn on(Relay connected to water pump).
+    If  it’s high, nothing would happend.
+    4 sent out a signal to Nodemcu esp8266 and Line notify or Line bot will send a message.
     5 Node will back at stpe 2 again untill the Node lost power source.
-    
--- how to connet to the node
+
+    Connect pump to relay,moisture sensor, and power source to the Node.
+
 # 2 Line Part
---how to connet connet line
+    You have to provite Line token from you line accouont Dev and change in in main code.
+
+    You can check connection in serial monitor
 
 # 3 Real world 
---put everything togethet
+    Simply by put pump in water source, moisture sensor in soil, and power Node.
