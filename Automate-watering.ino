@@ -10,7 +10,7 @@ void Line_Notify(String message) ;//Line msg
 #define WIFI_SSID "abc" // WIFI name
 #define WIFI_PASSWORD "12345678" //WIFI passwords
 // Line config
-#define LINE_TOKEN "hvmnp1QJ42Ze5SM1mjELBZQLyulgvsoiFBLCsnvnC9I" // Line token from line Dev.
+#define LINE_TOKEN "xxx" // Line token from line Dev.
 
 void setup()
 {
