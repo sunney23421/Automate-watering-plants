@@ -1,7 +1,7 @@
 # Nodemcu-esp8266-Automate-watering-plants
-One small project that will make your more easily.
+One small project that will make your life more easier.
 
-Things to make in Automate-watering-plants project:
+Things needed to make Automate-watering-plants project:
 
 Nodemcu esp8266
 Relay 5v
